@@ -1,0 +1,18 @@
+{
+  "name": "dev-time-machine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Travel between two versions of your website. Local screenshots, one portable comparison.",
+  "type": "module",
+  "bin": { "dtm": "bin/dtm.mjs" },
+  "scripts": {
+    "test": "node test/core.test.mjs",
+    "demo": "node bin/dtm.mjs demo",
+    "capture": "node bin/dtm.mjs capture",
+    "compare": "node bin/dtm.mjs compare",
+    "setup": "playwright install chromium"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "playwright": "^1.50.0" },
+  "license": "MIT"
+}

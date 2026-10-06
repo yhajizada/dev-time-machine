@@ -1,0 +1,10 @@
+node_modules/
+.time-machine/
+demo.html
+comparison.html
+test-results/
+*.zip
+.DS_Store
+.env
+.env.*
+!.env.example
